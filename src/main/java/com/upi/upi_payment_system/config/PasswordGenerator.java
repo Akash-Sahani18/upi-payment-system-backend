@@ -12,9 +12,10 @@ public class PasswordGenerator {
     CommandLineRunner generateUpiPinHash() {
         return args -> {
             BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-            String hash = encoder.encode("7890");
-            System.out.println("BCrypt hash for UPI PIN 7890:");
+            String hash = encoder.encode("1234");
+            System.out.println("BCrypt hash for UPI PIN 1234:");
             System.out.println(hash);
         };
     }
 }
+
