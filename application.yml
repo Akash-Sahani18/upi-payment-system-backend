@@ -1,0 +1,6 @@
+jwt:
+  secret: ${JWT_SECRET}
+
+spring:
+  datasource:
+    password: ${DB_PASSWORD}
