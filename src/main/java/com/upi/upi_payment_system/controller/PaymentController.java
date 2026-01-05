@@ -14,7 +14,7 @@ public class PaymentController {
 
     private final PaymentService paymentService;
 
-    // ✅ SEND MONEY
+    //  SEND MONEY
     @PostMapping("/send")
     public String sendMoney(
             @RequestParam String senderUpi,
@@ -25,7 +25,7 @@ public class PaymentController {
         return paymentService.sendMoney(senderUpi, receiverUpi, amount, upiPin);
     }
 
-    // ✅ TRANSACTION HISTORY
+    //  TRANSACTION HISTORY
     @GetMapping("/history/{upiId}")
     public Page<Transaction> getTransactionHistory(
             @PathVariable String upiId,
@@ -38,3 +38,4 @@ public class PaymentController {
         );
     }
 }
+
