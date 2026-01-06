@@ -1,8 +1,6 @@
-JAVA_VERSION=17
-JWT_SECRET=upi_payment_system_secret_2026
-
-SPRING_DATASOURCE_URL=${{MYSQL_URL}}
-SPRING_DATASOURCE_USERNAME=${{MYSQL_USER}}
-SPRING_DATASOURCE_PASSWORD=${{MYSQL_PASSWORD}}
-
-SPRING_PROFILES_ACTIVE=default
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
