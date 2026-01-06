@@ -19,12 +19,10 @@
     <name>upi-payment-system</name>
     <description>UPI Payment System Backend</description>
 
-    <!-- ONLY ONE properties block -->
     <properties>
         <java.version>17</java.version>
     </properties>
 
-    <!-- ALL dependencies MUST be inside this -->
     <dependencies>
 
         <dependency>
