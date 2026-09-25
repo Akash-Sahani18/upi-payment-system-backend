@@ -387,6 +387,6 @@ The backend implements:
 - Database-level idempotency constraints
 - Environment-based configuration for sensitive credentials
 
-## License
-
-This project is intended for learning and software engineering portfolio purposes.
+## 👨‍💻 Author
+*Akash Sahani*  
+📫 [GitHub](https://github.com/Akash-Sahani18) | [LinkedIn](https://www.linkedin.com/in/akash-sahani-440147243)
